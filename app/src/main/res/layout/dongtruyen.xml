@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp">
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:id="@+id/idHinhTruyen"
+        android:src="@drawable/hinhtruyen"
+        android:layout_width="35dp"
+        android:layout_height="45dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/idHinhTruyen"
+        android:layout_marginLeft="10dp"
+        >
+        <LinearLayout
+            android:id="@+id/dongTren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_weight="9.65"
+                android:id="@+id/idTenTruyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TenTruyen"
+                android:textSize="23sp"
+                android:textColor="#3A0774"
+                />
+            <TextView
+                android:layout_weight="0.35"
+                android:id="@+id/idMotaDongTruyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">>"
+                android:textSize="20sp"
+                android:textColor="#3A0774"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dongTren"
+            android:weightSum="10"
+            >
+            <TextView
+                android:layout_weight="1.8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="The Loai:"
+                android:textColor="#B6B5B5"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_weight="4"
+                android:id="@+id/idTheLoaiTruyen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="The Loai"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Danh Gia:"
+                android:textColor="#B6B5B5"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_weight="1.4"
+                android:id="@+id/idDanhGiaTruyen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Danh Gia"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textColor="#F5AF03"
+                />
+            <ImageView
+                android:id="@+id/idXoa"
+                android:layout_weight="0.37"
+                android:src="@drawable/xoa"
+                android:layout_width="0dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:id="@+id/idSua"
+                android:layout_weight="0.43"
+                android:src="@drawable/sua"
+                android:layout_width="0dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tenTheLoaiSua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ten The Loai"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/moTaTheLoaiSua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mo ta"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSuaTheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sua" />
+
+    <Button
+        android:id="@+id/btnHuySuaTheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Huy" />
+</LinearLayout>

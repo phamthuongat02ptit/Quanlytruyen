@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/bannerThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Them Truyen"
+        android:textColor="#FD0101"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/idTenTruyenThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ten Truyen"
+        android:layout_below="@id/bannerThem"
+        />
+    <EditText
+        android:id="@+id/idTheLoaiTruyenThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="The Loai"
+        android:layout_below="@id/idTenTruyenThem"
+        />
+    <EditText
+        android:id="@+id/idMoTaTruyenThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mo Ta"
+        android:layout_below="@id/idTheLoaiTruyenThem"
+        />
+    <EditText
+        android:id="@+id/idLinkTruyenThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Link"
+        android:layout_below="@id/idMoTaTruyenThem"
+        />
+    <EditText
+        android:id="@+id/idDanhGiaTruyenThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DanhGia"
+        android:layout_below="@id/idLinkTruyenThem"
+        />
+    <Button
+        android:id="@+id/idBtnThemTruyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idDanhGiaTruyenThem"
+        android:text="Them"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/idBtnHuyThemTruyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Huy"
+        android:layout_below="@id/idDanhGiaTruyenThem"
+        android:layout_toRightOf="@id/idBtnThemTruyen"
+        />
+
+</RelativeLayout>
